@@ -1,0 +1,33 @@
+{
+  "dataset_name": "Prevalence of Psychiatric Symptoms in UK University Students",
+  "citation": "Akram, Umair; Irvine, Kamila; Gardani, Maria; Allen, Sarah; Stevenson, Jodie C. (2023). Comprehensive Data on the Prevalence of Psychiatric Symptoms in UK University Students: Data Files SPSS and XLSX Format and Variable Codes. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24052236.v2",
+  "doi": "https://doi.org/10.6084/m9.figshare.24052236.v2",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "download_timestamp_utc": "2026-10-27T17:44:41.367956+00:00",
+  "files": [
+    {
+      "filename": "Variable codes and abbreviations .pdf",
+      "figshare_id": 42177486,
+      "download_url": "https://ndownloader.figshare.com/files/42177486",
+      "expected_size_bytes": 108260,
+      "actual_size_bytes": 108260,
+      "sha256": "71f46254d4eaa287fb72679c2032129c3f5f3f088e985a4629985df15fbd7b7c"
+    },
+    {
+      "filename": "Akram et al 2023 Student MH Data UK SciData.xlsx",
+      "figshare_id": 42177492,
+      "download_url": "https://ndownloader.figshare.com/files/42177492",
+      "expected_size_bytes": 490193,
+      "actual_size_bytes": 490193,
+      "sha256": "e04b2a75dd4c46021c8520ba013fada3db73d03a694fea6afc06769ca0ae4e64"
+    },
+    {
+      "filename": "Akram et al 2023 Student MH Data UK SciData.sav",
+      "figshare_id": 42177495,
+      "download_url": "https://ndownloader.figshare.com/files/42177495",
+      "expected_size_bytes": 2390110,
+      "actual_size_bytes": 2390110,
+      "sha256": "e83abd97610601585bf8ae5f023820db7a089c3cd3c335f4be901cb40e55e342"
+    }
+  ]
+}

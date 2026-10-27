@@ -1,0 +1,31 @@
+--- PAGE 1 ---
+Variable codes for dataset: Data on the prevalence of psychiatric symptoms in UK university students 
+ 
+Demographic Variables 
+Age Participant age 
+Sex Biological sex assigned at birth 
+Gender Gender identity 
+Ethnicity – Ethnicity_6 Participant ethnicity 
+Course_Type Participants current level of study 
+Institution Institution student attended when providing the current data.  
+Institution_Other Name of institution 
+Individual Psychometric Items 
+GAD7_1 – GAD7_2 The seven individual items of the Generalized Anxiety Disorder 7.X 
+PHQ_1 – PHQ_9 The nine individual items of the Patient Health Questionnaire 
+MDQ_1 – MDQ_13 The thirteen individual items of the Mood Disorder questionnaire 
+MDQ_Frequency Possible cooccurrence of items within the same period. 
+MDQ_Severity Consequence severity of the possible episode. 
+SCI1 – SCI8  The eight individual items of the Sleep Condition Indicator 
+PSS_1 – PSS_10 The ten individual items of the Perceived Stress Scale.X 
+SBQ1 – SBQ2 The four individual items of the Suicidal Behaviours Questionnaire-Revised.X 
+PRO16_1 – PRO16_16 The sixteen individual items of the Prodromal 16.X 
+UCLA3_1 – UCLA3_20 The twenty individual items of the University of California Loneliness Scale UCLA3.X 
+Psychiatric Symptoms Scored 
+GAD7_Anxiety Summation of anxiety items 
+PHQ9_Depression Summation of depressive items 
+MDQ_Mania Summation of mania items 
+SCI_Insomnia Summation of insomnia items 
+SBQ_Suicidal_Ideation Summation of suicidal ideation items 
+P16_Psychotic_Exp_Sum Summation of items assessing psychotic like experiences  
+UCLA3_Loneliness Summation of items assessing loneliness  
+ 

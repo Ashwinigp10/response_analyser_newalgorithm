@@ -1,0 +1,153 @@
+{
+  "trained_timestamp": "2026-10-27T23:21:29.216424",
+  "xgboost_version": "3.4.1",
+  "pq16": {
+    "model_type": "XGBClassifier",
+    "xgboost_version": "3.4.1",
+    "task": "pq16_screening",
+    "features": [
+      "PRO16_1",
+      "PRO16_2",
+      "PRO16_3",
+      "PRO16_4",
+      "PRO16_5",
+      "PRO16_6",
+      "PRO16_7",
+      "PRO16_8",
+      "PRO16_9",
+      "PRO16_10",
+      "PRO16_11",
+      "PRO16_12",
+      "PRO16_13",
+      "PRO16_14",
+      "PRO16_15",
+      "PRO16_16"
+    ],
+    "target": "target",
+    "hyperparameters": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.85,
+      "colsample_bytree": 0.85,
+      "reg_alpha": 0.1,
+      "reg_lambda": 1.0,
+      "scale_pos_weight": 2.3848797250859106,
+      "eval_metric": "logloss",
+      "random_state": 42
+    },
+    "best_iteration": 199,
+    "scale_pos_weight": 2.3848797250859106,
+    "cv_metrics": {
+      "accuracy": {
+        "mean": 0.9583756345177665,
+        "std": 0.01485151151099266
+      },
+      "precision": {
+        "mean": 0.9139711927649886,
+        "std": 0.045882284509169306
+      },
+      "recall": {
+        "mean": 0.9520748100526009,
+        "std": 0.03629498809669978
+      },
+      "f1": {
+        "mean": 0.9314519129529021,
+        "std": 0.0243045911479527
+      },
+      "roc_auc": {
+        "mean": 0.9951338377878491,
+        "std": 0.0032044346601235074
+      }
+    },
+    "test_metrics": {
+      "accuracy": 0.9622641509433962,
+      "precision": 0.9365079365079365,
+      "recall": 0.9365079365079365,
+      "specificity": 0.9731543624161074,
+      "f1_score": 0.9365079365079365,
+      "roc_auc": 0.9924363481410462,
+      "confusion_matrix": {
+        "TN": 145,
+        "FP": 4,
+        "FN": 4,
+        "TP": 59
+      }
+    },
+    "saved_model_file": "pq16_xgboost_model.json"
+  },
+  "mdq": {
+    "model_type": "XGBClassifier",
+    "xgboost_version": "3.4.1",
+    "task": "mdq_screening",
+    "features": [
+      "MDQ1_1",
+      "MDQ1_2",
+      "MDQ1_3",
+      "MDQ1_4",
+      "MDQ1_5",
+      "MDQ1_6",
+      "MDQ1_7",
+      "MDQ1_8",
+      "MDQ1_9",
+      "MDQ1_10",
+      "MDQ1_11",
+      "MDQ1_12",
+      "MDQ1_13",
+      "MDQ_Frequency",
+      "MDQ3_Severity"
+    ],
+    "target": "target",
+    "hyperparameters": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.85,
+      "colsample_bytree": 0.85,
+      "reg_alpha": 0.2,
+      "reg_lambda": 1.2,
+      "scale_pos_weight": 7.794642857142857,
+      "eval_metric": "logloss",
+      "random_state": 42
+    },
+    "best_iteration": 192,
+    "scale_pos_weight": 7.794642857142857,
+    "cv_metrics": {
+      "accuracy": {
+        "mean": 0.9807106598984772,
+        "std": 0.004973583234077493
+      },
+      "precision": {
+        "mean": 0.861897435897436,
+        "std": 0.03433050844651657
+      },
+      "recall": {
+        "mean": 0.9913043478260869,
+        "std": 0.017391304347826077
+      },
+      "f1": {
+        "mean": 0.9215628512274476,
+        "std": 0.019129269279708223
+      },
+      "roc_auc": {
+        "mean": 0.9989965536712164,
+        "std": 0.0010690921657887113
+      }
+    },
+    "test_metrics": {
+      "accuracy": 0.9905660377358491,
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "specificity": 0.9893617021276596,
+      "f1_score": 0.96,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "TN": 186,
+        "FP": 2,
+        "FN": 0,
+        "TP": 24
+      }
+    },
+    "saved_model_file": "mdq_xgboost_model.json"
+  }
+}

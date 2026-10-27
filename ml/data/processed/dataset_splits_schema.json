@@ -1,0 +1,54 @@
+{
+  "pq16": {
+    "features": [
+      "PRO16_1",
+      "PRO16_2",
+      "PRO16_3",
+      "PRO16_4",
+      "PRO16_5",
+      "PRO16_6",
+      "PRO16_7",
+      "PRO16_8",
+      "PRO16_9",
+      "PRO16_10",
+      "PRO16_11",
+      "PRO16_12",
+      "PRO16_13",
+      "PRO16_14",
+      "PRO16_15",
+      "PRO16_16"
+    ],
+    "target": "target",
+    "target_meaning": "PQ-16 Prodromal Psychosis Screening Positive (Score >= 6)",
+    "train_size": 985,
+    "val_size": 211,
+    "test_size": 212,
+    "positive_rate": 0.2954314720812183
+  },
+  "mdq": {
+    "features": [
+      "MDQ1_1",
+      "MDQ1_2",
+      "MDQ1_3",
+      "MDQ1_4",
+      "MDQ1_5",
+      "MDQ1_6",
+      "MDQ1_7",
+      "MDQ1_8",
+      "MDQ1_9",
+      "MDQ1_10",
+      "MDQ1_11",
+      "MDQ1_12",
+      "MDQ1_13",
+      "MDQ_Frequency",
+      "MDQ3_Severity"
+    ],
+    "target": "target",
+    "target_meaning": "MDQ Hirschfeld Bipolar Positive Screen (7+ symptoms, co-occurring, moderate/serious severity)",
+    "train_size": 985,
+    "val_size": 211,
+    "test_size": 212,
+    "positive_rate": 0.11370558375634518
+  },
+  "random_seed": 42
+}
